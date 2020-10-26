@@ -1,0 +1,1 @@
+package com.ramit.dataprocessor.utils;public class RequestIDGenerator {    static volatile long requestCounter = 0;    public static long getUniqueRequestId() {        return requestCounter++;    }}

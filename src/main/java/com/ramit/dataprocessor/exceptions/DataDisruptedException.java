@@ -1,0 +1,1 @@
+package com.ramit.dataprocessor.exceptions;public class DataDisruptedException extends RuntimeException {    public DataDisruptedException(String message, Throwable cause) {        super(message, cause);    }    public DataDisruptedException(String message) {        super(message);    }    public DataDisruptedException(Throwable cause) {        super(cause);    }}
